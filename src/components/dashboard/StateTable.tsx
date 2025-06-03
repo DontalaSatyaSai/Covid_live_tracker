@@ -1,6 +1,4 @@
 import React from 'react';
-import { useTable, useSortBy } from 'react-table';
-import { Download } from 'lucide-react';
 import { StateData } from '../../services/api';
 
 interface StateTableProps {
@@ -8,114 +6,60 @@ interface StateTableProps {
 }
 
 const StateTable: React.FC<StateTableProps> = ({ data }) => {
-  const columns = React.useMemo(
-    () => [
-      {
-        Header: 'State/UT',
-        accessor: 'state',
-      },
-      {
-        Header: 'Confirmed',
-        accessor: 'confirmed',
-      },
-      {
-        Header: 'Active',
-        accessor: 'active',
-      },
-      {
-        Header: 'Recovered',
-        accessor: 'recovered',
-      },
-      {
-        Header: 'Deaths',
-        accessor: 'deaths',
-      },
-      {
-        Header: 'Last Updated',
-        accessor: 'lastUpdated',
-        Cell: ({ value }: { value: string }) => new Date(value).toLocaleDateString(),
-      },
-    ],
-    []
-  );
-
-  const {
-    getTableProps,
-    getTableBodyProps,
-    headerGroups,
-    rows,
-    prepareRow,
-  } = useTable({ columns, data }, useSortBy);
-
   const downloadCSV = () => {
-    const headers = columns.map(column => column.Header).join(',');
-    const dataRows = data.map(row => 
-      Object.values(row).join(',')
-    ).join('\n');
-    const csv = `${headers}\n${dataRows}`;
-    
-    const blob = new Blob([csv], { type: 'text/csv' });
-    const url = window.URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.setAttribute('hidden', '');
-    a.setAttribute('href', url);
-    a.setAttribute('download', 'covid19_state_data.csv');
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
+    const headers = ['S. No.', 'State / UT', 'Active Cases', 'Recovered', 'Deaths'];
+    const rows = data.map((state, index) => [
+      index + 1,
+      state.state,
+      state.active.toLocaleString(),
+      state.recovered.toLocaleString(),
+      state.deaths.toLocaleString()
+    ]);
+    const csvContent = [
+      headers,
+      ...rows
+    ].map(row => row.map(val => `"${val.toString().replace(/"/g, '""')}"`).join(',')).join('\n');
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.setAttribute('href', url);
+    link.setAttribute('download', 'statewise_covid_data.csv');
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
   };
 
   return (
-    <div className="overflow-x-auto">
-      <div className="flex justify-end mb-4">
-        <button
-          onClick={downloadCSV}
-          className="flex items-center gap-2 px-4 py-2 bg-[#1A5276] text-white rounded-md hover:bg-[#2E86C1] transition-colors"
-        >
-          <Download size={16} />
-          <span>Download CSV</span>
-        </button>
-      </div>
-      <table {...getTableProps()} className="min-w-full divide-y divide-gray-200">
-        <thead>
-          {headerGroups.map(headerGroup => (
-            <tr {...headerGroup.getHeaderGroupProps()}>
-              {headerGroup.headers.map(column => (
-                <th
-                  {...column.getHeaderProps(column.getSortByToggleProps())}
-                  className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider bg-gray-50"
-                >
-                  {column.render('Header')}
-                  <span>
-                    {column.isSorted
-                      ? column.isSortedDesc
-                        ? ' ↓'
-                        : ' ↑'
-                      : ''}
-                  </span>
-                </th>
-              ))}
-            </tr>
-          ))}
-        </thead>
-        <tbody {...getTableBodyProps()} className="bg-white divide-y divide-gray-200">
-          {rows.map(row => {
-            prepareRow(row);
-            return (
-              <tr {...row.getRowProps()}>
-                {row.cells.map(cell => (
-                  <td
-                    {...cell.getCellProps()}
-                    className="px-6 py-4 whitespace-nowrap text-sm text-gray-900"
-                  >
-                    {cell.render('Cell')}
-                  </td>
-                ))}
-              </tr>
-            );
-          })}
-        </tbody>
-      </table>
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        padding: '1.2rem 0 0.8rem 0',
+        margin: '0 auto',
+        maxWidth: '420px',
+      }}
+    >
+      <button
+        onClick={downloadCSV}
+        style={{
+          backgroundColor: '#1A5276',
+          color: '#fff',
+          padding: '0.65rem 1.4rem',
+          border: 'none',
+          borderRadius: '0.5rem',
+          fontSize: '1rem',
+          fontWeight: 600,
+          cursor: 'pointer',
+          transition: 'background-color 0.2s ease',
+          boxShadow: '0 2px 8px rgba(0,0,0,0.08)'
+        }}
+        onMouseOver={e => (e.currentTarget.style.backgroundColor = '#2874A6')}
+        onMouseOut={e => (e.currentTarget.style.backgroundColor = '#1A5276')}
+      >
+        Download State-Wise Data (CSV)
+      </button>
     </div>
   );
 };

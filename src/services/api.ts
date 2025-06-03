@@ -1,14 +1,12 @@
+// src/services/api.ts
 import axios from 'axios';
-import { format } from 'date-fns';
-
-const COVID_API_BASE_URL = 'https://api.covid19api.com';
 
 export interface CovidData {
   Country: string;
   Confirmed: number;
-  Deaths: number;
-  Recovered: number;
-  Active: number;
+  Deaths: number | null;
+  Recovered: number | null;
+  Active: number | null;
   Date: string;
 }
 
@@ -21,48 +19,70 @@ export interface StateData {
   lastUpdated: string;
 }
 
-// Fallback data in case API is unavailable
+// Fallback data for state-wise cases if API fetch fails
 export const getFallbackData = (): StateData[] => [
-  {
-    state: 'Maharashtra',
-    confirmed: 10234567,
-    active: 45678,
-    recovered: 10000000,
-    deaths: 188889,
-    lastUpdated: '2025-05-29T00:00:00Z'
-  },
-  {
-    state: 'Kerala',
-    confirmed: 6634722,
-    active: 23456,
-    recovered: 6500000,
-    deaths: 111266,
-    lastUpdated: '2025-05-29T00:00:00Z'
-  },
-  // Add more states here...
+  { state: 'Maharashtra', confirmed: 0, active: 84, recovered: 0, deaths: 0, lastUpdated: '2025-05-29T00:00:00Z' },
+  { state: 'Uttar Pradesh', confirmed: 0, active: 44, recovered: 0, deaths: 0, lastUpdated: '2025-05-29T00:00:00Z' },
+  { state: 'Delhi', confirmed: 0, active: 33, recovered: 0, deaths: 0, lastUpdated: '2025-05-29T00:00:00Z' },
+  { state: 'Kerala', confirmed: 0, active: 30, recovered: 0, deaths: 0, lastUpdated: '2025-05-29T00:00:00Z' },
+  { state: 'Gujarat', confirmed: 0, active: 28, recovered: 0, deaths: 0, lastUpdated: '2025-05-29T00:00:00Z' }
 ];
 
-// Fallback data for India overall
 const indiaFallbackData: CovidData = {
   Country: 'India',
-  Confirmed: 45123456,
-  Deaths: 531234,
-  Recovered: 44123456,
-  Active: 468766,
+  Confirmed: 0,
+  Deaths: null,
+  Recovered: null,
+  Active: null,
   Date: '2025-05-29T00:00:00Z'
 };
 
 export const fetchIndiaCovidData = async (): Promise<CovidData> => {
   try {
-    const response = await axios.get(`${COVID_API_BASE_URL}/country/india`);
-    return response.data[response.data.length - 1]; // Get latest data
+    console.log('Attempting to fetch national data from http://localhost:5000/api/covid');
+    const response = await axios.get('http://localhost:5000/api/covid', { timeout: 5000 });
+    const data = response.data.national;
+    if (data) {
+      console.log('Successfully fetched national data from local server:', data);
+      // Clean the Date field to ensure it's a valid date string
+      let cleanedDate = new Date().toISOString();
+      if (data.Date && typeof data.Date === 'string') {
+        // Extract only the date part if it contains extraneous text
+        const dateMatch = data.Date.match(/(\d{4}-\d{2}-\d{2})/);
+        cleanedDate = dateMatch ? dateMatch[0] + 'T00:00:00Z' : new Date().toISOString();
+      }
+      return {
+        Country: data.Country || 'India',
+        Confirmed: data.Confirmed ?? 0,
+        Deaths: data.Deaths ?? 0,
+        Recovered: data.Recovered ?? 0,
+        Active: data.Active ?? 0,
+        Date: cleanedDate
+      };
+    }
+    console.error('No national data found in response, using fallback');
+    throw new Error('No national data found');
   } catch (error) {
-    console.warn('Using fallback data due to API error:', error);
-    return Promise.resolve(indiaFallbackData); // Explicitly return a resolved promise
+    console.error('Failed to fetch national data from local server:', error.message);
+    console.warn('Using fallback national data');
+    return indiaFallbackData;
   }
 };
 
 export const fetchStateWiseData = async (): Promise<StateData[]> => {
-  // Return fallback data directly since the API endpoint is a placeholder
-  return getFallbackData();
+  try {
+    console.log('Attempting to fetch state-wise data from http://localhost:5000/api/covid');
+    const response = await axios.get('http://localhost:5000/api/covid', { timeout: 5000 });
+    const data = response.data.stateData;
+    if (data && data.length > 0) {
+      console.log('Successfully fetched state-wise data from local server:', data.slice(0, 5));
+      return data;
+    }
+    console.error('No state-wise data found in response, using fallback');
+    throw new Error('No state-wise data found');
+  } catch (error) {
+    console.error('Failed to fetch state-wise data from local server:', error.message);
+    console.warn('Using fallback state-wise data');
+    return getFallbackData();
+  }
 };

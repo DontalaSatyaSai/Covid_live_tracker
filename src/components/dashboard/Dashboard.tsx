@@ -1,8 +1,8 @@
+// src/components/dashboard/Dashboard.tsx
 import React, { useEffect, useState } from 'react';
 import SectionHeading from '../shared/SectionHeading';
 import CasesMap from './CasesMap';
-import CaseTrends from './CaseTrends';
-import VariantPrevalence from './VariantPrevalence';
+import VariantsVisual from './VariantsVisual';
 import StateTable from './StateTable';
 import { fetchIndiaCovidData, fetchStateWiseData, CovidData, StateData } from '../../services/api';
 import { format } from 'date-fns';
@@ -17,12 +17,14 @@ const Dashboard: React.FC = () => {
     const fetchData = async () => {
       try {
         setLoading(true);
+        setError(null);
         const [national, states] = await Promise.all([
           fetchIndiaCovidData(),
           fetchStateWiseData()
         ]);
         setNationalData(national);
         setStateData(states);
+        console.log('Data loaded successfully:', { national, states });
       } catch (err) {
         setError('Failed to fetch COVID-19 data. Please try again later.');
         console.error('Error fetching data:', err);
@@ -41,6 +43,7 @@ const Dashboard: React.FC = () => {
     return (
       <div className="flex items-center justify-center min-h-screen">
         <div className="animate-spin rounded-full h-12 w-12 border-4 border-[#1A5276] border-t-transparent"></div>
+        <p className="ml-4 text-gray-600">Loading dashboard...</p>
       </div>
     );
   }
@@ -59,6 +62,35 @@ const Dashboard: React.FC = () => {
     );
   }
 
+  // Function to safely format date
+  const formatDateSafely = (dateStr: string): string => {
+    try {
+      const date = new Date(dateStr);
+      if (isNaN(date.getTime())) {
+        return 'N/A'; // Return fallback if date is invalid
+      }
+      return format(date, 'PPpp');
+    } catch (e) {
+      console.error('Error formatting date:', e);
+      return 'N/A';
+    }
+  };
+
+  // Calculate total cases as sum of Active and Recovered
+  const totalCases =
+    (nationalData?.Active ?? 0) +
+    (nationalData?.Recovered ?? 0);
+
+  // Calculate total deaths as sum of deaths across all states
+  const totalDeaths = stateData.reduce(
+    (sum, state) => sum + (state.deaths ?? 0),
+    0
+  );
+
+  const topStates = [...stateData]
+    .sort((a, b) => b.active - a.active)
+    .slice(0, 9);
+
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
@@ -73,67 +105,54 @@ const Dashboard: React.FC = () => {
             <div className="bg-white rounded-xl shadow-md p-6 border-l-4 border-[#1A5276]">
               <h3 className="text-lg font-medium text-gray-600">Total Cases</h3>
               <p className="text-3xl font-bold text-[#1A5276]">
-                {nationalData?.Confirmed.toLocaleString()}
+                {totalCases ? totalCases.toLocaleString() : 'N/A'}
               </p>
             </div>
             <div className="bg-white rounded-xl shadow-md p-6 border-l-4 border-[#CB4335]">
               <h3 className="text-lg font-medium text-gray-600">Active Cases</h3>
               <p className="text-3xl font-bold text-[#CB4335]">
-                {nationalData?.Active.toLocaleString()}
+                {nationalData?.Active !== null && nationalData?.Active !== undefined ? nationalData.Active.toLocaleString() : 'N/A'}
               </p>
             </div>
             <div className="bg-white rounded-xl shadow-md p-6 border-l-4 border-[#2ECC71]">
               <h3 className="text-lg font-medium text-gray-600">Recovered</h3>
               <p className="text-3xl font-bold text-[#2ECC71]">
-                {nationalData?.Recovered.toLocaleString()}
+                {nationalData?.Recovered !== null && nationalData?.Recovered !== undefined ? nationalData.Recovered.toLocaleString() : 'N/A'}
               </p>
             </div>
             <div className="bg-white rounded-xl shadow-md p-6 border-l-4 border-gray-600">
               <h3 className="text-lg font-medium text-gray-600">Deaths</h3>
               <p className="text-3xl font-bold text-gray-600">
-                {nationalData?.Deaths.toLocaleString()}
+                {totalDeaths ? totalDeaths.toLocaleString() : 'N/A'}
               </p>
             </div>
           </div>
           <p className="mt-4 text-right text-sm text-gray-500">
-            Last Updated: {format(new Date(nationalData?.Date || new Date()), 'PPpp')}
+            Last Updated: {nationalData?.Date ? formatDateSafely(nationalData.Date) : 'N/A'}
           </p>
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
           <div className="bg-white rounded-xl shadow-md overflow-hidden">
             <div className="p-4 border-b">
-              <h3 className="font-semibold text-lg">Cases by State</h3>
+              <h3 className="font-semibold text-lg"> Top 9 states by Active Cases</h3>
             </div>
             <div className="p-4 h-[400px]">
-              <CasesMap />
+              <CasesMap data={topStates} />
             </div>
           </div>
-          
-          <div className="grid grid-cols-1 gap-8">
-            <div className="bg-white rounded-xl shadow-md overflow-hidden">
-              <div className="p-4 border-b">
-                <h3 className="font-semibold text-lg">Case Trends (Last 30 Days)</h3>
-              </div>
-              <div className="p-4 h-[180px]">
-                <CaseTrends />
-              </div>
-            </div>
-            
-            <div className="bg-white rounded-xl shadow-md overflow-hidden">
-              <div className="p-4 border-b">
-                <h3 className="font-semibold text-lg">Variant Prevalence</h3>
-              </div>
-              <div className="p-4 h-[180px]">
-                <VariantPrevalence />
-              </div>
-            </div>
-          </div>
+          <VariantsVisual />
         </div>
 
         <div className="bg-white rounded-xl shadow-md overflow-hidden p-6">
-          <h3 className="text-xl font-semibold mb-4">State-Wise COVID-19 Breakdown</h3>
-          <StateTable data={stateData} />
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
+            <h3 className="text-xl font-semibold" style={{ flex: 1, margin: 0 }}>
+              State-Wise COVID-19 Breakdown
+            </h3>
+            <div style={{ flexShrink: 0 }}>
+              <StateTable data={stateData} />
+            </div>
+          </div>
         </div>
       </div>
     </section>

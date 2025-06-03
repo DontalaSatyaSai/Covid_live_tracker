@@ -1,76 +1,73 @@
 import React from 'react';
-import { ComposableMap, Geographies, Geography } from 'react-simple-maps';
-import { getStatesCasesData } from '../../data/casesData';
+import { StateData } from '../../services/api';
 
-// Simplified India GeoJSON - this would normally be a complete file
-const INDIA_TOPO_JSON = {
-  type: "Topology",
-  objects: {
-    india: {
-      type: "GeometryCollection",
-      geometries: [
-        // This is a simplified representation - in a real implementation, 
-        // you would use a complete GeoJSON file for India with all states
-        { type: "Polygon", coordinates: [[[78, 22]]], id: "KL" }, // Kerala
-        { type: "Polygon", coordinates: [[[76, 18]]], id: "MH" }, // Maharashtra
-        { type: "Polygon", coordinates: [[[77, 28]]], id: "DL" }  // Delhi
-      ]
-    }
+interface CasesMapProps {
+  data: StateData[];
+}
+
+const BOX_COLOR = '#2874A6'; // Consistent blue for all boxes
+const FONT_COLOR = '#fff';   // Consistent white text
+
+const CasesMap: React.FC<CasesMapProps> = ({ data }) => {
+  // Ensure exactly 9 boxes for layout
+  const boxes = data.slice(0, 9);
+  while (boxes.length < 9) {
+    boxes.push({
+      state: '',
+      confirmed: 0,
+      active: 0,
+      recovered: 0,
+      deaths: 0,
+      lastUpdated: ''
+    });
   }
-};
-
-const CasesMap: React.FC = () => {
-  const statesCasesData = getStatesCasesData();
-  
-  // Function to determine color based on case count
-  const getColor = (caseCount: number) => {
-    if (caseCount >= 80) return "#1A5276"; // dark blue
-    if (caseCount >= 60) return "#2874A6"; // medium blue
-    if (caseCount >= 40) return "#3498DB"; // blue
-    if (caseCount >= 20) return "#85C1E9"; // light blue
-    return "#D6EAF8"; // very light blue
-  };
 
   return (
-    <div className="relative h-full w-full">
-      <div className="text-center mb-2 text-sm text-gray-500">
-        Hover over states to see case details
-      </div>
-      
-      {/* This is a simplified placeholder - in a real implementation, 
-          you would use a proper India map with react-simple-maps */}
-      <div className="h-full flex items-center justify-center">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full">
-          {statesCasesData.map((state) => (
-            <div 
-              key={state.id}
-              className="relative overflow-hidden rounded-lg p-4 transition-all duration-300 hover:shadow-md"
-              style={{ backgroundColor: getColor(state.cases) }}
-            >
-              <div className="text-white">
-                <h3 className="font-medium">{state.name}</h3>
-                <p className="text-2xl font-bold">{state.cases}</p>
-                <p className="text-sm opacity-80">Active Cases</p>
-              </div>
-            </div>
-          ))}
+    <div
+      style={{
+        width: '100%',
+        maxWidth: '700px', // Prevents grid from being too wide on large screens
+        margin: '0 auto',
+        minHeight: '30px',
+        display: 'grid',
+        gridTemplateColumns: 'repeat(3, 1fr)',
+        gridTemplateRows: 'repeat(3, 1fr)',
+        gap: '0.8rem',
+        background: '#fff',
+        padding: '0.8rem 0',
+        boxSizing: 'border-box',
+      }}
+    >
+      {boxes.map((state, idx) => (
+        <div
+          key={state.state || idx}
+          style={{
+            background: BOX_COLOR,
+            color: FONT_COLOR,
+            borderRadius: '10px',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center', // vertical center
+            alignItems: 'center',     // horizontal center
+            fontWeight: 600,
+            fontSize: '1rem',
+            minHeight: 0,
+            height: '125px',
+            width: '100%',
+            boxShadow: '0 2px 8px rgba(0,0,0,0.04)',
+            transition: 'box-shadow 0.2s',
+            padding: '0.5rem 0.2rem'
+          }}
+        >
+          {state.state ? (
+            <>
+              <div style={{ fontSize: '1.3rem', marginBottom: '0.08em', letterSpacing: '0.3px', textAlign: 'center' }}>{state.state}</div>
+              <div style={{ fontSize: '1.7rem', margin: '0.08em 0', fontWeight: 700, textAlign: 'center' }}>{state.active.toLocaleString()}</div>
+              <div style={{ fontSize: '1rem', fontWeight: 400, textAlign: 'center', opacity: 0.95 }}>Active Cases</div>
+            </>
+          ) : null}
         </div>
-      </div>
-      
-      <div className="absolute bottom-0 left-0 right-0 flex justify-center space-x-4 p-2">
-        <div className="flex items-center text-xs">
-          <div className="w-3 h-3 rounded-full bg-[#D6EAF8] mr-1"></div>
-          <span>Low</span>
-        </div>
-        <div className="flex items-center text-xs">
-          <div className="w-3 h-3 rounded-full bg-[#3498DB] mr-1"></div>
-          <span>Medium</span>
-        </div>
-        <div className="flex items-center text-xs">
-          <div className="w-3 h-3 rounded-full bg-[#1A5276] mr-1"></div>
-          <span>High</span>
-        </div>
-      </div>
+      ))}
     </div>
   );
 };

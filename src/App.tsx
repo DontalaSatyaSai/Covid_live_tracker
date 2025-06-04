@@ -3,6 +3,11 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import HomePage from './pages/HomePage';
+// Add this near your existing imports
+import Chatbot from './components/shared/chatbot';
+
+// Add this just before your closing </> in the return statement
+
 
 function App() {
   return (
@@ -11,10 +16,12 @@ function App() {
         <Header />
         <main className="flex-grow">
           <HomePage />
+          <Chatbot />
         </main>
         <Footer />
       </div>
     </Router>
+    
   );
 }
 

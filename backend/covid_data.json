@@ -2,139 +2,147 @@
   "national": {
     "Country": "India",
     "Confirmed": 0,
-    "Active": 4026,
-    "Recovered": 2700,
+    "Active": 4302,
+    "Recovered": 3281,
     "Deaths": 0,
-    "Date": "Home \n\t\t\t\t\n\t\t\t\tNotification\n\t\t\t\t\n\t\t\t\t\tResources\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\tAwareness\n\t\t\t\tDistrict-wise\n\t\t\t\t\t\tCOVID-19 test positivity rates \n\n\t\t\t\t\n\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tIndia\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t हिन्दी \n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t Screen Reader\n\t\t\t\t\t\t\t\t\t\t\t\tAcess \n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tPIB\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\tA+\n\t\t\t\t\t\t\t\t\t\t\t\t\tA\n\t\t\t\t\t\t\t\t\t\t\t\t\tA-\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tA\n\t\t\t\t\t\t\t\t\t\t\t\tA\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tMinistry of Health  and Family Welfare\n\t\t\t\t\t\t\t\t\t\t\tGovernment of India\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t Home \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tNotification\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\tResources\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tVaccination Status\n\t\t\t\t\t\t\t\t\t\t\t\t\nState/UT-wise Covid-19 cases:(6 May 2023 – 31 Dec 2024)\n\t\t\t\t\t\t\t\t\t\t\t\t\nState/UT-wise Covid-19 cases: (31st Jan 2020 to 5th May 2023)\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tAwareness\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t↓\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t↑\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\n\n\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tToll Free : 1075\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tCovid-19 facilities in States & Union\n\t\t\t\t\t\t\t\t\t\t\tTerritories\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tArogya Setu  App \n\t\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tCOVID-19 INDIA as on : 3 June 2025, 08:00 IST (GMT+5:30)\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tActive  (59.53%)\n\t\t\t\t\t\t\t\t\t\t\t4026  \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tActive \n\t\t\t\t\t\t\t\t\t\t\t(59.53%) \n\t\t\t\t\t\t\t\t\t\t\t4026  \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tDischarged  (39.92%)\n\t\t\t\t\t\t\t\t\t\t\t2700\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tDischarged \n\t\t\t\t\t\t\t\t\t\t\t(39.92%) \n\t\t\t\t\t\t\t\t\t\t\t2700\n\t\t\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\n\n\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t COVID-19 Statewise Status \n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tCOVID-19 INDIA as on : 3 June 2025, 08:00 IST (GMT+5:30)\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tS. No.\n\t\t\t\t\t\t\t\t\t\t\t\tName of State / UT\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tActive\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tCases\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\tCured/Discharged/Migrated\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\tDeaths* (Details of causes below)\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tTotal\n\t\t\t\t\t\t\t\t\t\t\t\tChange since\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tyesterday\n\t\t\t\t\t\t\t\t\t\t\t\t\tChange since yesterday\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tCumulative since 1st January 2025 \n\t\t\t\t\t\t\t\t\t\t\t\tChange since yesterday\n\t\t\t\t\t\t\t\t\t\t\t\tCumulative since 1st January 2025 \n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tDeath Since yesterday\n\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\n\n\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t1Andhra Pradesh28 2  12 4  0   2Arunachal Pradesh0 3  3 3  0   3Assam6 1  0 0  0   4Bihar11 6  0 0  0   5Chandigarh2 1  0 0  0   6Chhattisgarh11 4  5 0  0   7Delhi393 90  563 124  4   8Goa8 2  6 5  0   9Gujarat397 59  156 36  1   10Haryana44 16  26 2  0   11Jammu and Kashmir9   1 0  0   12Jharkhand11   1 0  0   13Karnataka311 58  214 29  4   14Kerala***1416 19  888 171  9 1  15Madhya Pradesh21 2  7 3  1   16Maharashtra494 12  369 69  10 2  17Mizoram2   0 0  0   18Odisha15 3  0 0  0   19Puducherry27 11  58 11  0   20Punjab9 3  5 2  1   21Rajasthan75 6  37 9  1   22Sikkim4   18 0  0   23Tamil Nadu215 26  239 4  3 1  24Telangana4 1  2 0  0   25Uttarakhand3   13 3  0   26Uttar Pradesh138 19  39 26  2   27West Bengal372 41  38 11  1 1  Total# 4026 65   2700  512  37 5  *Kerala (1 Death) - 80 years old male with severe pneumonia, ARDS, DM, HTN, CAD. *Maharashtra (2 Deaths) - 1) 70-year-old Female with DM. 2) 73-year-old Female with DM and HTN. *Tamil Nadu (1 death)-69 year old female with type 2 Diabetes Mellitus and Parkinsons Disease. * West Bengal (1 death)-43 yrs old female with -Acute coronary syndrome, Septic shock, Acute kidney injury\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tAwareness\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tEnglish\n\t\t\t\t\t\t\t\t\t\t\tHindi\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tDisclaimer : \n\t\t\t\t\t\t\t\t\tWebsite content managed by Ministry of Health and Family\n\t\t\t\t\t\t\t\t\t\tWelfare, GOI\n\t\t\t\t\t\t\t\t\tDesign, Developed and Hosted by National Informatics Centre (NIC)"
+    "Date": "Home \n\t\t\t\t\n\t\t\t\tNotification\n\t\t\t\t\n\t\t\t\t\tResources\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\tAwareness\n\t\t\t\tDistrict-wise\n\t\t\t\t\t\tCOVID-19 test positivity rates \n\n\t\t\t\t\n\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tIndia\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t हिन्दी \n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t Screen Reader\n\t\t\t\t\t\t\t\t\t\t\t\tAcess \n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tPIB\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\tA+\n\t\t\t\t\t\t\t\t\t\t\t\t\tA\n\t\t\t\t\t\t\t\t\t\t\t\t\tA-\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tA\n\t\t\t\t\t\t\t\t\t\t\t\tA\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tMinistry of Health  and Family Welfare\n\t\t\t\t\t\t\t\t\t\t\tGovernment of India\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t Home \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tNotification\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\tResources\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tVaccination Status\n\t\t\t\t\t\t\t\t\t\t\t\t\nState/UT-wise Covid-19 cases:(6 May 2023 – 31 Dec 2024)\n\t\t\t\t\t\t\t\t\t\t\t\t\nState/UT-wise Covid-19 cases: (31st Jan 2020 to 5th May 2023)\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tAwareness\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t↓\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t↑\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\n\n\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tToll Free : 1075\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tCovid-19 facilities in States & Union\n\t\t\t\t\t\t\t\t\t\t\tTerritories\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tArogya Setu  App \n\t\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tCOVID-19 INDIA as on : 4 June 2025, 08:00 IST (GMT+5:30)\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tActive  (56.40%)\n\t\t\t\t\t\t\t\t\t\t\t4302  \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tActive \n\t\t\t\t\t\t\t\t\t\t\t(56.40%) \n\t\t\t\t\t\t\t\t\t\t\t4302  \n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tDischarged  (43.02%)\n\t\t\t\t\t\t\t\t\t\t\t3281\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tDischarged \n\t\t\t\t\t\t\t\t\t\t\t(43.02%) \n\t\t\t\t\t\t\t\t\t\t\t3281\n\t\t\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\n\n\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t COVID-19 Statewise Status \n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tCOVID-19 INDIA as on : 4 June 2025, 08:00 IST (GMT+5:30)\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tS. No.\n\t\t\t\t\t\t\t\t\t\t\t\tName of State / UT\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tActive\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tCases\n\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\tCured/Discharged/Migrated\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\tDeaths* (Details of causes below)\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tTotal\n\t\t\t\t\t\t\t\t\t\t\t\tChange since\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tyesterday\n\t\t\t\t\t\t\t\t\t\t\t\t\tChange since yesterday\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tCumulative since 1st January 2025 \n\t\t\t\t\t\t\t\t\t\t\t\tChange since yesterday\n\t\t\t\t\t\t\t\t\t\t\t\tCumulative since 1st January 2025 \n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\tDeath Since yesterday\n\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\n\n\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t1Andhra Pradesh31 3  17 5  0   2Arunachal Pradesh0   3 0  0   3Assam8 2  1 1  0   4Bihar22 11  4 4  0   5Chandigarh2   0 0  0   6Chhattisgarh15 4  5 0  0   7Delhi457 64  602 39  5 1  8Goa8   7 1  0   9Gujarat461 64  199 43  2 1  10Haryana51 7  35 9  0   11Himachal Pradesh1 1  0 0  0   12Jammu and Kashmir6 3  4 3  0   13Jharkhand9 2  3 2  0   14Karnataka324 13  254 40  4   15Kerala***1373 43  1175 287  9   16Madhya Pradesh22 1  7 0  1   17Maharashtra510 16  435 66  14 4  18Mizoram2   0 0  0   19Odisha18 3  0 0  0   20Puducherry22 5  70 12  0   21Punjab12 3  5 0  1   22Rajasthan90 15  46 9  1   23Sikkim4   18 0  0   24Tamil Nadu216 1  268 29  4 1  25Telangana3 1  3 1  0   26Uttarakhand2 1  15 2  0   27Uttar Pradesh201 63  39 0  2   28West Bengal432 60  66 28  1   Total# 4302 276   3281  581  44 7 *Delhi (1 death)- 22 years old female with Old treated Pulmonary Koch's, B/L lower respiratort tract infection, Covid pnemonia, shock, Type 1 Respiratory failure.*Maharashtra (4 deaths) - 1) 55 years old male with H/O Cardiac Arrythmia and was on antiarrythimics. Patient is also a known case of COPD with chronic bronchitis. (2) 73 years old male with Cardiogenic Shock,Parkinson's Disease, Covid 19 pneumonia, Hypertension. (3) 23 years old female with Diabetes Mellitus, HTN. (4) 27 years old male with IHD with old PTB, LRTI, alcohol withdrawal seizure.*Tamil Nadu (1 death)-76 years old male with Acute Respiratory Distress Syndrome (ARDS), COVID-19 pneumonia, and sepsis with multi-organ dysfunction syndrome (MODS).*Gujarat (1 Death) - Details awaited.\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\tAwareness\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tEnglish\n\t\t\t\t\t\t\t\t\t\t\tHindi\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\n\t\t\t\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tDisclaimer : \n\t\t\t\t\t\t\t\t\tWebsite content managed by Ministry of Health and Family\n\t\t\t\t\t\t\t\t\t\tWelfare, GOI\n\t\t\t\t\t\t\t\t\tDesign, Developed and Hosted by National Informatics Centre (NIC)"
   },
   "stateData": [
     {
       "state": "Andhra Pradesh",
       "confirmed": 0,
-      "active": 28,
-      "recovered": 2,
-      "deaths": 2,
-      "lastUpdated": "2025-06-03T04:16:17.169Z"
+      "active": 31,
+      "recovered": 3,
+      "deaths": 3,
+      "lastUpdated": "2025-06-04T04:22:20.944Z"
     },
     {
       "state": "Arunachal Pradesh",
       "confirmed": 0,
       "active": 0,
       "recovered": 3,
-      "deaths": 3,
-      "lastUpdated": "2025-06-03T04:16:17.172Z"
+      "deaths": 0,
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Assam",
       "confirmed": 0,
-      "active": 6,
-      "recovered": 1,
-      "deaths": 1,
-      "lastUpdated": "2025-06-03T04:16:17.172Z"
+      "active": 8,
+      "recovered": 2,
+      "deaths": 2,
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Bihar",
       "confirmed": 0,
-      "active": 11,
-      "recovered": 6,
-      "deaths": 6,
-      "lastUpdated": "2025-06-03T04:16:17.172Z"
+      "active": 22,
+      "recovered": 11,
+      "deaths": 11,
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Chandigarh",
       "confirmed": 0,
       "active": 2,
-      "recovered": 1,
-      "deaths": 1,
-      "lastUpdated": "2025-06-03T04:16:17.172Z"
+      "recovered": 0,
+      "deaths": 0,
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Chhattisgarh",
       "confirmed": 0,
-      "active": 11,
+      "active": 15,
       "recovered": 4,
       "deaths": 4,
-      "lastUpdated": "2025-06-03T04:16:17.172Z"
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Delhi",
       "confirmed": 0,
-      "active": 393,
-      "recovered": 90,
-      "deaths": 90,
-      "lastUpdated": "2025-06-03T04:16:17.172Z"
+      "active": 457,
+      "recovered": 64,
+      "deaths": 64,
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Goa",
       "confirmed": 0,
       "active": 8,
-      "recovered": 2,
-      "deaths": 2,
-      "lastUpdated": "2025-06-03T04:16:17.172Z"
+      "recovered": 7,
+      "deaths": 1,
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Gujarat",
       "confirmed": 0,
-      "active": 397,
-      "recovered": 59,
-      "deaths": 59,
-      "lastUpdated": "2025-06-03T04:16:17.172Z"
+      "active": 461,
+      "recovered": 64,
+      "deaths": 64,
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Haryana",
       "confirmed": 0,
-      "active": 44,
-      "recovered": 16,
-      "deaths": 16,
-      "lastUpdated": "2025-06-03T04:16:17.173Z"
+      "active": 51,
+      "recovered": 7,
+      "deaths": 7,
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
+    },
+    {
+      "state": "Himachal Pradesh",
+      "confirmed": 0,
+      "active": 1,
+      "recovered": 1,
+      "deaths": 1,
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Jammu and Kashmir",
       "confirmed": 0,
-      "active": 9,
-      "recovered": 1,
-      "deaths": 0,
-      "lastUpdated": "2025-06-03T04:16:17.173Z"
+      "active": 6,
+      "recovered": 3,
+      "deaths": 3,
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Jharkhand",
       "confirmed": 0,
-      "active": 11,
-      "recovered": 1,
-      "deaths": 0,
-      "lastUpdated": "2025-06-03T04:16:17.173Z"
+      "active": 9,
+      "recovered": 2,
+      "deaths": 2,
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Karnataka",
       "confirmed": 0,
-      "active": 311,
-      "recovered": 58,
-      "deaths": 58,
-      "lastUpdated": "2025-06-03T04:16:17.173Z"
+      "active": 324,
+      "recovered": 13,
+      "deaths": 13,
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Kerala***",
       "confirmed": 0,
-      "active": 1416,
-      "recovered": 19,
-      "deaths": 19,
-      "lastUpdated": "2025-06-03T04:16:17.173Z"
+      "active": 1373,
+      "recovered": 43,
+      "deaths": 43,
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Madhya Pradesh",
       "confirmed": 0,
-      "active": 21,
-      "recovered": 2,
-      "deaths": 2,
-      "lastUpdated": "2025-06-03T04:16:17.173Z"
+      "active": 22,
+      "recovered": 1,
+      "deaths": 1,
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Maharashtra",
       "confirmed": 0,
-      "active": 494,
-      "recovered": 12,
-      "deaths": 12,
-      "lastUpdated": "2025-06-03T04:16:17.173Z"
+      "active": 510,
+      "recovered": 16,
+      "deaths": 16,
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Mizoram",
@@ -142,39 +150,39 @@
       "active": 2,
       "recovered": 0,
       "deaths": 0,
-      "lastUpdated": "2025-06-03T04:16:17.173Z"
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Odisha",
       "confirmed": 0,
-      "active": 15,
+      "active": 18,
       "recovered": 3,
       "deaths": 3,
-      "lastUpdated": "2025-06-03T04:16:17.173Z"
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Puducherry",
       "confirmed": 0,
-      "active": 27,
-      "recovered": 11,
-      "deaths": 11,
-      "lastUpdated": "2025-06-03T04:16:17.173Z"
+      "active": 22,
+      "recovered": 5,
+      "deaths": 5,
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Punjab",
       "confirmed": 0,
-      "active": 9,
+      "active": 12,
       "recovered": 3,
       "deaths": 3,
-      "lastUpdated": "2025-06-03T04:16:17.173Z"
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Rajasthan",
       "confirmed": 0,
-      "active": 75,
-      "recovered": 6,
-      "deaths": 6,
-      "lastUpdated": "2025-06-03T04:16:17.173Z"
+      "active": 90,
+      "recovered": 15,
+      "deaths": 15,
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Sikkim",
@@ -182,55 +190,55 @@
       "active": 4,
       "recovered": 18,
       "deaths": 0,
-      "lastUpdated": "2025-06-03T04:16:17.173Z"
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Tamil Nadu",
       "confirmed": 0,
-      "active": 215,
-      "recovered": 26,
-      "deaths": 26,
-      "lastUpdated": "2025-06-03T04:16:17.173Z"
+      "active": 216,
+      "recovered": 1,
+      "deaths": 1,
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Telangana",
       "confirmed": 0,
-      "active": 4,
+      "active": 3,
       "recovered": 1,
       "deaths": 1,
-      "lastUpdated": "2025-06-03T04:16:17.173Z"
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Uttarakhand",
       "confirmed": 0,
-      "active": 3,
-      "recovered": 13,
-      "deaths": 3,
-      "lastUpdated": "2025-06-03T04:16:17.173Z"
+      "active": 2,
+      "recovered": 1,
+      "deaths": 1,
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "Uttar Pradesh",
       "confirmed": 0,
-      "active": 138,
-      "recovered": 19,
-      "deaths": 19,
-      "lastUpdated": "2025-06-03T04:16:17.173Z"
+      "active": 201,
+      "recovered": 63,
+      "deaths": 63,
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
       "state": "West Bengal",
       "confirmed": 0,
-      "active": 372,
-      "recovered": 41,
-      "deaths": 41,
-      "lastUpdated": "2025-06-03T04:16:17.173Z"
+      "active": 432,
+      "recovered": 60,
+      "deaths": 60,
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     },
     {
-      "state": "4026",
+      "state": "4302",
       "confirmed": 0,
-      "active": 65,
-      "recovered": 65,
-      "deaths": 2700,
-      "lastUpdated": "2025-06-03T04:16:17.173Z"
+      "active": 276,
+      "recovered": 276,
+      "deaths": 3281,
+      "lastUpdated": "2025-06-04T04:22:20.946Z"
     }
   ]
 }
